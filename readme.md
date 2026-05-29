@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://scholar.google.com/citations?user=R_GmxIAAAAAJ">Wenyang Gao</a>*¹²,
   <a href="https://rockyyh.github.io/">Yinghao Yang</a>*²,
-  Xi Jin¹,
+  <a href="https://github.com/jandx20031231">Xi Jin</a>¹,
   Jing Li³,
   <a href="https://frcchang.github.io/">Yue Zhang</a>²
 </p>
