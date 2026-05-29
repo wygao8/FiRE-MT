@@ -49,9 +49,14 @@ The repository provides code for running FiRE-style evaluation with either API-b
 
 The paper reports several key findings:
 
-- **Fine-grained pairwise evaluation improves alignment with human preferences.**FiRE consistently outperforms error-based evaluation methods across faithfulness, fluency, and consistency of style on ranked pairwise data.
-https://rockyyh.github.io/
-<table>
+<ul>
+  <li>
+    <strong>Fine-grained pairwise evaluation improves alignment with human preferences.</strong>
+    FiRE consistently outperforms error-based evaluation methods across faithfulness, fluency, and consistency of style on ranked pairwise data.
+  </li>
+</ul>
+
+<table align="center">
   <caption><em>Percentage agreement (%) between model evaluators and human annotations on ranked pairwise data. <b>Bold</b>  indicates the best performance per criterion and language direction.</em></caption>
   <thead>
     <tr>
@@ -74,9 +79,14 @@ https://rockyyh.github.io/
   </tbody>
 </table>
 
-- **Criterion-aware aggregation improves overall ranking.**Aggregating fine-grained judgments from faithfulness, fluency, and consistency of style yields stronger overall pairwise decisions than direct holistic ranking in several settings.
+<ul>
+  <li>
+    <strong>Criterion-aware aggregation improves overall ranking.</strong>
+    Aggregating fine-grained judgments from faithfulness, fluency, and consistency of style yields stronger overall pairwise decisions than direct holistic ranking in several settings.
+  </li>
+</ul>
 
-<table>
+<table align="center">
   <caption><em>Percentage agreement (%) between model evaluators and human annotations on ranked overall pairwise data. <b>Bold</b> indicates the best performance per language direction.</em></caption>
   <thead>
     <tr>
@@ -99,7 +109,13 @@ https://rockyyh.github.io/
     <tr><td>DeepSeek-R1-FiRE</td><td><b>65.3</b></td><td><b>70.1</b></td></tr>
   </tbody>
 </table>
-- **FiRE provides interpretable system-level diagnosis.**Beyond producing an overall ranking, FiRE reveals where MT systems gain or lose performance across different quality dimensions.
+
+<ul>
+  <li>
+    <strong>FiRE provides interpretable system-level diagnosis.</strong>
+    Beyond producing an overall ranking, FiRE reveals where MT systems gain or lose performance across different quality dimensions.
+  </li>
+</ul>
 
 <p align="center">
   <img src="figures/inter_system_0516.png" width="80%">
